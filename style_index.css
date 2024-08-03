@@ -88,3 +88,59 @@ body {
 .nav-right a:last-child img {
     margin-right: 0; 
 }
+
+.title_banner {
+    color: #ffffff;
+    padding: 20px 0;
+    height: 260px; 
+    text-align: center;
+}
+
+.title_banner h1 {
+    margin: 40px;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.title_banner p {
+    margin: 5px 0 0;
+    font-size: 2.3em;
+}
+
+.start_button {
+    display: inline-block;
+    padding: 12px 30px; 
+    background-color: transparent; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 5px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    cursor: pointer; 
+    margin: 20px;
+}
+
+.start_button:hover {
+    background-color: #fff; 
+    color: #007bff;
+}
+
+.info_text {
+    color: #ffffff;
+    padding: 30px 0;
+    height: 260px; 
+    text-align: center;
+}
+
+.info_text h1 {
+    margin: 25px;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+.info_text p {
+    margin: 1px;
+    font-size: 1.2em;
+}
