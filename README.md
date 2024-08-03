@@ -1,1 +1,1 @@
-# Website
+# Lynx Panel Website
