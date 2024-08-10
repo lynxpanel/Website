@@ -151,3 +151,19 @@ body {
 	margin: 1px;
 	font-size: 1.2em;
 }
+
+.row_container {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+ }
+ 
+ .row_right, .row_middle, .row_left {
+	display: flex;
+	flex-direction: column;
+ }
+ 
+ .row_right_1, .row_middle_1, .row_left_1,
+ .row_right_2, .row_middle_2, .row_left_2 {
+	margin-bottom: 20px; 
+ }
