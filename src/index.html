@@ -4,24 +4,33 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="/website/src/style_index.css">
+      <script src="/website/src/langswitch.js" defer></script>
       <title>Home | Lynx</title>
    </head>
    <body>
       <nav class="navbar">
          <div class="logo">
-            <img src="/website/assets/lynx.png" alt="Lynx Logo" style="height: 45px; width: auto; margin-right: 10px;"> 
-            <a href="index.html">Lynx</a>
+             <img src="/website/assets/lynx.png" alt="Lynx Logo" style="height: 45px; width: auto; margin-right: 10px;"> 
+             <a href="index.html">Lynx</a>
          </div>
          <ul class="nav-left">
-            <li><a href="#">Documentation</a></li>
-            <li><a href="#">Marketplace</a></li>
-            <li><a href="#">Donate</a></li>
+             <li><a href="docs.lynx-panel.net">Documentation</a></li>
+             <li><a href="#">Marketplace</a></li>
+             <li><a href="#">Donate</a></li>
          </ul>
          <div class="nav-right">
-            <a href="https://github.com/lynxpanel"><img src="/website/assets/github_icon.svg" alt="github_logo"></a>
-            <a href="https://discord.gg/Rs9SbJ9bWU"><img src="/website/assets/discord_icon.svg" alt="discord_logo"></a>
+             <div class="language-selector">
+                 <select name="language" id="language" onchange="switchLanguage()">
+                     <option value="en">English</option>
+                     <option value="de">Deutsch</option>
+                     <option value="fr">Français</option>
+                     <option value="es">Español</option>
+                 </select>
+             </div>
+             <a href="https://github.com/lynxpanel"><img src="/website/assets/github_icon.svg" alt="github_logo"></a>
+             <a href="https://discord.gg/Rs9SbJ9bWU"><img src="/website/assets/discord_icon.svg" alt="discord_logo"></a>
          </div>
-      </nav>
+     </nav>       
       <div class="title_banner">
          <h1>Lynx Panel</h1>
          <p>lorem impsum</p>
